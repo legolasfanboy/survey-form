@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+<h1 id="title">
+  Build a Survey Form Survey Form
+</h1>
+<body>
+  <p id="description">
+    Thank you for taking the time to help us improve the platform!
+  </p>
+  <form id="survey-form">
+    <label for="name"id="name-label" >Name</label>
+    <input id="name" type="text" required placeholder="Your Name Here"/>
+    <label for="email" id="email-label">Email</label>
+    <input id="email" type="email" placeholder="email@example.com" required/>
+    <label for="age" id="number-label">Age</label>
+    <input id="number" type="number" min="18" max="99" placeholder="18">
+    <label for="employment-status">What is your current employment status?</label>
+    <select id="dropdown">
+      <option value="">Select current role</option>
+      <option value="student">Student</option>
+      <option value="full-time-employee">Full Time Employee</option>
+      <option value="unemployed">Unemployed</option>
+    <input type="radio" name="definitely" value="definitely"/>
+    <label for="definitely">Definitely</label>
+    <input type="radio" name="definitely" value="possibly"/>
+    <label for="possibly">Possibly</label>
+    <input type="radio" name="not-today" value="not-today"/>
+    <label for="not-today">Not Today</label>
+    <input type="radio" name="not-today" value="unsure"/>
+    <label for="unsure">Unsure</label>
+    <input type="checkbox" value="front-end-coding",>
+    <label for="front-end-coding">Front End Coding</label>
+    <input type="checkbox" value="back-end-coding"/>
+    <label for="back-end-coding">Back End Coding</label>
+<input type="submit" id="submit">
+    <textarea>
+  </form>
+</body>
+</html>
